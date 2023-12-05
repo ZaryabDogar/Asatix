@@ -14,7 +14,7 @@ export default {
       'transparent':'transparent'
     },
     fontFamily: {
-      sans: ['Open Sans', 'sans-serif'],
+      sans: ['OpenSauceOne', 'sans-serif'],
     
     },
     extend: {},

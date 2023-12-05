@@ -33,7 +33,7 @@ sethover4(false)
 		<section className="bg-white flex flex-col justify-center w-full items-center pt-20 px-3">
 			<div
 				className="w-full
-    text-center flex justify-center lg:text-[48px]  sm:text-[32px] text-[25px] leading-[54px] items-center lg:flex-row flex-col lg:space-x-4 lg:space-y-0 space-y-5"
+    text-center flex justify-center lg:text-[48px]  sm:text-[32px] text-[25px] leading-[54px] items-center lg:flex-row flex-col lg:space-x-4 lg:space-y-0 space-y-5 transition-all ease-in-out duration-500"
 			>
 				<p className="text-[#3371B8] font-bold">Does your </p>
 				<div className="lg:py-5 2xl:px-12 lg:px-10 py-6 sm:px-16  px-[10%]  bg-gradient-to-br from-[#1782fd]  to-[#ff4815] text-white rounded-[99px] flex items-center lg:space-x-6 space-x-2 justify-center">
@@ -44,7 +44,7 @@ sethover4(false)
 			</div>
 			<div className="w-full flex flex-col items-center justify-center xl:w-[1170px] py-12 space-y-3 transition-all ease-in-out duration-500 lg:pb-20">
 				{/* q1  */}
-				<div className={`flex font-sans rounded-2xl w-full py-3 px-8 space-x-5 items-center ${hover?'bg-white  lg:text-[28px] text-[20px] 2xl:leading-[40px] leading-[35px] text-[#0B2545] border-[2px] border-[#3371B8] transition-transform transform-gpu duration-100 2xl:scale-x-110 xl:scale-x-[1.05] cursor-pointer':'text-[20px] 2xl:leading-[54px] leading-[32px]  bg-[#3371B8] text-white '} `} onMouseEnter={handelmouseenter} onMouseLeave={handelmouseleave}>
+				<div className={`flex font-sans rounded-2xl w-full py-4 px-8 space-x-5 items-center ${hover?'bg-white  lg:text-[28px] text-[20px] 2xl:leading-[40px] leading-[35px] text-[#0B2545] border-[2px] border-[#3371B8] transition-transform transform-gpu 2xl:scale-x-110 duration-500 ease-in-out xl:scale-x-[1.05] cursor-pointer':'text-[20px] 2xl:leading-[54px] leading-[32px]  bg-[#3371B8] text-white '} `} onMouseEnter={handelmouseenter} onMouseLeave={handelmouseleave}>
 					<p className={`font-extrabold text-start ${hover?'bg-gradient-to-br from-[#3473bb]  to-[#E35A35]  bg-clip-text text-transparent xl:text-[40px]':''} `}>Q1.</p>
 					<p className=" font-[600] ">
 						What measures should we implement to ensure robust security across
@@ -52,7 +52,7 @@ sethover4(false)
 					</p>
 				</div>
 				{/* q2 */}
-                <div className={`flex font-sans rounded-2xl w-full py-3 px-8 space-x-5 items-center ${hover2?'bg-white  lg:text-[28px] text-[20px] 2xl:leading-[40px] leading-[35px] text-[#0B2545] border-[2px] border-[#3371B8] transition-transform transform-gpu duration-100 2xl:scale-x-110 xl:scale-x-[1.05] cursor-pointer':'text-[20px] 2xl:leading-[54px] leading-[32px]  bg-[#3371B8] text-white '} `} onMouseEnter={handelmouseenter2} onMouseLeave={handelmouseleave2}>
+                <div className={`flex font-sans rounded-2xl w-full py-4 px-8 space-x-5 items-center ${hover2?'bg-white  lg:text-[28px] text-[20px] 2xl:leading-[40px] leading-[35px] text-[#0B2545] border-[2px] border-[#3371B8] transition-transform transform-gpu 2xl:scale-x-110 duration-500 ease-in-out xl:scale-x-[1.05] cursor-pointer':'text-[20px] 2xl:leading-[54px] leading-[32px]  bg-[#3371B8] text-white '} `} onMouseEnter={handelmouseenter2} onMouseLeave={handelmouseleave2}>
                 <p className={`font-extrabold text-start ${hover2?'bg-gradient-to-br from-[#3473bb]  to-[#E35A35]  bg-clip-text text-transparent xl:text-[40px]':''} `}>Q2.</p>
 					<p className=" font-[600] ">
                     How can we ensure the security of our CI/CD pipelines and the overall DevOps processes? What best practices should be implemented?
@@ -60,7 +60,7 @@ sethover4(false)
 					</p>
 				</div>
 				{/* q3  */}
-                <div className={`flex font-sans rounded-2xl w-full py-3 px-8 space-x-5 items-center ${hover3?'bg-white  lg:text-[28px] text-[20px] 2xl:leading-[40px] leading-[35px] text-[#0B2545] border-[2px] border-[#3371B8] transition-transform transform-gpu duration-100 2xl:scale-x-110 xl:scale-x-[1.05] cursor-pointer':'text-[20px] 2xl:leading-[54px] leading-[32px]  bg-[#3371B8] text-white '} `} onMouseEnter={handelmouseenter3} onMouseLeave={handelmouseleave3}>
+                <div className={`flex font-sans rounded-2xl w-full py-4 px-8 space-x-5 items-center ${hover3?'bg-white  lg:text-[28px] text-[20px] 2xl:leading-[40px] leading-[35px] text-[#0B2545] border-[2px] border-[#3371B8] transition-transform transform-gpu 2xl:scale-x-110 duration-500 ease-in-out xl:scale-x-[1.05] cursor-pointer':'text-[20px] 2xl:leading-[54px] leading-[32px]  bg-[#3371B8] text-white '} `} onMouseEnter={handelmouseenter3} onMouseLeave={handelmouseleave3}>
                 <p className={`font-extrabold text-start ${hover3?'bg-gradient-to-br from-[#3473bb]  to-[#E35A35]  bg-clip-text text-transparent xl:text-[40px]':''} `}>Q3.</p>
 					<p className=" font-[600] ">
 					How do we navigate the complexities of adopting new technologies or upgrading our software architecture and ensure smooth integration?
@@ -68,7 +68,7 @@ sethover4(false)
 					</p>
 				</div>
 				{/* q4 */}
-                <div className={`flex font-sans rounded-2xl w-full py-3 px-8 space-x-5 items-center ${hover4?'bg-white  lg:text-[28px] text-[20px] 2xl:leading-[40px] leading-[35px] text-[#0B2545] border-[2px] border-[#3371B8] transition-transform transform-gpu duration-100 2xl:scale-x-110 xl:scale-x-[1.05] cursor-pointer':'text-[20px] 2xl:leading-[54px] leading-[32px]  bg-[#3371B8] text-white '} `} onMouseEnter={handelmouseenter4} onMouseLeave={handelmouseleave4}>
+                <div className={`flex font-sans rounded-2xl w-full py-4 px-8 space-x-5 items-center ${hover4?'bg-white  lg:text-[28px] text-[20px] 2xl:leading-[40px] leading-[35px] text-[#0B2545] border-[2px] border-[#3371B8] transition-transform transform-gpu 2xl:scale-x-110 duration-500 ease-in-out xl:scale-x-[1.05] cursor-pointer':'text-[20px] 2xl:leading-[54px] leading-[32px]  bg-[#3371B8] text-white '} `} onMouseEnter={handelmouseenter4} onMouseLeave={handelmouseleave4}>
 				<p className={`font-extrabold text-start ${hover4?'bg-gradient-to-br from-[#3473bb]  to-[#E35A35]  bg-clip-text text-transparent xl:text-[40px]':''} `}>Q4.</p>
 					<p className=" font-[600] ">
                     What measures should we implement to ensure robust security across our technology stacks?
