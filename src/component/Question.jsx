@@ -36,7 +36,7 @@ sethover4(false)
     text-center flex justify-center lg:text-[48px]  sm:text-[32px] text-[25px] leading-[54px] items-center lg:flex-row flex-col lg:space-x-4 lg:space-y-0 space-y-5 transition-all ease-in-out duration-500"
 			>
 				<p className="text-[#3371B8] font-bold">Does your </p>
-				<div className="lg:py-5 2xl:px-12 lg:px-10 py-6 sm:px-16  px-[10%]  bg-gradient-to-br from-[#1782fd]  to-[#ff4815] text-white rounded-[99px] flex items-center lg:space-x-6 space-x-2 justify-center">
+				<div className="lg:py-5 2xl:px-12 lg:px-10 py-5 sm:px-16  px-[10%]  bg-gradient-to-br from-[#1782fd]  to-[#ff4815] text-white rounded-[99px] flex items-center lg:space-x-6 space-x-2 justify-center">
 					<p className="font-[800]  ">DevOps Engineer</p>{' '}
 					<img src="/arrowdown.png" alt="" className="w-[32px] h-[32px]" />
 				</div>
