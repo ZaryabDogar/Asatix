@@ -45,10 +45,10 @@ const Question = () => {
 		<section className="bg-white flex flex-col justify-center w-full items-center pt-20 px-3 transition-all duration-1000 ease-in-out">
 			<div
 				className="w-full
-    text-center flex justify-center lg:text-[48px]  sm:text-[32px] text-[25px] leading-[54px] items-center lg:flex-row flex-col lg:space-x-4 lg:space-y-0 space-y-5 transition-all ease-in-out duration-1000"
+    text-center flex  justify-center lg:text-[48px]  sm:text-[32px] text-[20px] leading-[54px] items-center lg:flex-row flex-col lg:space-x-4 lg:space-y-0 space-y-1 transition-all ease-in-out duration-1000"
 			>
 				<p className="text-[#3371B8] font-bold">Does your </p>
-				<div className="lg:py-5 2xl:px-12 lg:px-8 py-5 sm:px-16  px-[10%]  bg-gradient-to-br from-[#1782fd]  to-[#ff4815] text-white rounded-[99px] flex items-center lg:space-x-4 space-x-2 justify-center">
+				<div className="lg:py-5 2xl:px-12 lg:px-8 py-3 sm:px-16  px-[10%]  bg-gradient-to-br from-[#1782fd]  to-[#ff4815] text-white rounded-[99px] flex items-center lg:space-x-4 space-x-2 justify-center">
 					<p className="font-[800]  ">DevOps Engineer</p>{' '}
 					<img src="/arrowdown.png" alt="" className="w-[32px] h-[32px]" />
 				</div>
@@ -274,7 +274,7 @@ const Question = () => {
 					alt=""
 					className="absolute sm:left-0 sm:bottom-0 -left-16 -bottom-12  xl:w-[402px] w-[250px]"
 				/>
-				<p className="font-bold lg:text-[48px] leading-[54px] text-[32px] font-sans text-white text-center ">
+				<p className="font-bold lg:text-[48px] lg:leading-[54px] leading-tight text-[32px] font-sans text-white text-center ">
 					Partner with Asatix today
 				</p>
 				<p className="font-[500] text-[20px] lg:leading-[30px]  leading-[26px] lg:text-[18px] font-sans text-white text-center xl:w-[60%] lg:w-[70%] sm:w-[80%] w-[90%]  lg:mt-5 mt-12 ">
