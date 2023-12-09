@@ -54,14 +54,15 @@ const Question = () => {
 				</div>
 				<p className="text-[#3371B8] font-bold">asks</p>
 			</div>
-			<div className="w-full flex flex-col items-center justify-center 2xl:px-[375px] xl:px-72 lg:px-64 py-12 sm:space-y-8 space-y-3 transition-all ease-in-out duration-1000 lg:pb-28 ">
+			<div className="w-full flex flex-col items-center justify-center 2xl:px-[375px] xl:px-72 lg:px-64 py-12 sm:space-y-3 space-y-3 transition-all ease-in-out duration-1000 lg:pb-28 ">
 				{/* q1  */}
-				<div
-					className={`flex font-sans rounded-2xl w-full py-4 px-8 space-x-5 items-center transition-transform transform-gpu duration-1000 ease-in-out${
+				<div className={`flex font-sans rounded-2xl w-full py-3 px-8 space-x-5 items-center transition-transform transform-gpu duration-1000 ease-in-out${
 						hover
 							? 'bg-white  2xl:text-[28px] text-[20px] 2xl:leading-[40px] leading-[30px] text-[#0B2545] border-[2px] border-[#3371B8] 2xl:scale-x-[1.4]  xl:scale-x-[1.45]  lg:scale-x-[1.35] cursor-pointer'
 							: 'text-[20px] 2xl:leading-[54px] leading-[32px]  bg-[#3371B8] text-white '
-					} `}
+					} `}>
+				<div
+					className={` `}
 					onMouseEnter={handelmouseenter}
 					onMouseLeave={handelmouseleave}
 				>
@@ -105,13 +106,15 @@ const Question = () => {
 						</div>
 					)}
 				</div>
+				</div>
 				{/* q2   */}
-				<div
-					className={`flex font-sans rounded-2xl w-full py-4 px-8 space-x-5 items-center transition-transform transform-gpu duration-1000 ease-in-out${
+				<div className={`flex font-sans rounded-2xl w-full py-3 px-8 space-x-5 items-center transition-transform transform-gpu duration-1000 ease-in-out${
 						hover2
 							? 'bg-white  2xl:text-[28px] text-[20px] 2xl:leading-[40px] leading-[30px] text-[#0B2545] border-[2px] border-[#3371B8] 2xl:scale-x-[1.4]  xl:scale-x-[1.45]  lg:scale-x-[1.35] cursor-pointer'
 							: 'text-[20px] 2xl:leading-[54px] leading-[32px]  bg-[#3371B8] text-white '
-					} `}
+					} `}>
+				<div
+					
 					onMouseEnter={handelmouseenter2}
 					onMouseLeave={handelmouseleave2}
 				>
@@ -156,13 +159,15 @@ const Question = () => {
 						</div>
 					)}
 				</div>
+				</div>
 				{/* q3  */}
-					<div
-					className={`flex font-sans rounded-2xl w-full py-4 px-8 space-x-5 items-center transition-transform transform-gpu duration-1000 ease-in-out${
+				<div className={`flex font-sans rounded-2xl w-full py-3 px-8 space-x-5 items-center transition-transform transform-gpu duration-1000 ease-in-out${
 						hover3
 							? 'bg-white  2xl:text-[28px] text-[20px] 2xl:leading-[40px] leading-[30px] text-[#0B2545] border-[2px] border-[#3371B8] 2xl:scale-x-[1.4]  xl:scale-x-[1.45]  lg:scale-x-[1.35] cursor-pointer'
 							: 'text-[20px] 2xl:leading-[54px] leading-[32px]  bg-[#3371B8] text-white '
-					} `}
+					} `}>
+					<div
+					
 					onMouseEnter={handelmouseenter3}
 					onMouseLeave={handelmouseleave3}
 				>
@@ -206,13 +211,14 @@ const Question = () => {
 						</div>
 					)}
 				</div>
+				</div>
 				{/* q4  */}
-					<div
-					className={`flex font-sans rounded-2xl w-full py-4 px-8 space-x-5 items-center transition-transform transform-gpu duration-1000 ease-in-out${
+				<div className={`flex font-sans rounded-2xl py-3 w-full  px-8 space-x-5 items-center transition-transform transform-gpu duration-1000 ease-in-out${
 						hover4
 							? 'bg-white  2xl:text-[28px] text-[20px] 2xl:leading-[40px] leading-[30px] text-[#0B2545] border-[2px] border-[#3371B8] 2xl:scale-x-[1.4]  xl:scale-x-[1.45]  lg:scale-x-[1.35] cursor-pointer'
 							: 'text-[20px] 2xl:leading-[54px] leading-[32px]  bg-[#3371B8] text-white '
-					} `}
+					} `}>
+					<div 
 					onMouseEnter={handelmouseenter4}
 					onMouseLeave={handelmouseleave4}
 				>
@@ -257,7 +263,7 @@ const Question = () => {
 						</div>
 					)}
 				</div>
-
+</div>
 
 			</div>
 			<div
